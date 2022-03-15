@@ -1,6 +1,6 @@
-const Item = ({ texto }) => {
+const Item = ({ children }) => {
   return (
-    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{texto}</a>
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{children}</a>
   );
 }
 
